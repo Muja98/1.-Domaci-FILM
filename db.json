@@ -1,0 +1,60 @@
+
+{
+    "film" :
+    [
+        {
+            "id": 1,
+            "naziv" : "Titanik",
+            "opis" : "Titanik (engl. Titanic) je američki film iz 1997. godine. Tema filma je romantična priča o bogatoj devojci i siromašnom momku koji se susreću i zaljubljuju na „nepotopivom brodu“, dok posada broda žuri da obori dotadašnji rekord u putovanju preko Atlantika (na putu im stoji „samo“ santa leda).",
+            "glumacId" : [1,2]
+        },
+        {
+            "id": 2,
+            "naziv" : "Bitka na Neretvi",
+            "opis" : "Bitka na Neretvi je jugoslovenski partizanski film iz 1969. Scenario su napisali Stevan Bulajić, Veljko Bulajić i Ratko Đurović, a film je režirao Veljko Bulajić. Film je zasnovan na istinitim događajima iz Drugog svetskog rata, strateškog plana udruženog napada sila Osovine na jugoslovenske partizane 1943.",
+            "glumacId" : [2,3]
+        },
+        {
+            "id": 3,
+            "naziv" : "Sutjetska",
+            "opis" : "Sutjeska je jugoslovenski film snimljen 1973. godine u režiji Stipe Delića. Film je snimljen povodom tridesetogodišnjice bitke na Sutjesci a scenario su pisali Sergej Bondarčuk, Branimir Šćepanović i Miljenko Smoje. Sniman je u Nacionalnom parku Sutjeska i važi za jedan od najskupljih filmova u istoriji jugoslovenske kinematografije.",
+            "glumacId" : [3,4]
+        },
+        {
+            "id": 4,
+            "naziv" : "Lepa sela lepo gore",
+            "opis" : "Lepa sela lepo gore je srpski film Srđana Dragojevića snimljen 1996. godine.",
+            "glumacId" : [2]
+        },
+        {
+            "id": 5,
+            "naziv" : "Zikina Dinastija",
+            "opis": "Žikina dinastija je sedmi nastavak filmskog serijala „Lude godine“, koji je premijerno prikazivanje imao 31. oktobra 1985. godine.",
+            "glumacId" : [2,5,1]
+        }
+    ],
+
+    "glumac" :
+    [
+        {
+            "id":1,
+            "ime" : "Leonardo DiCaprio"
+        },
+        {
+            "id":2,
+            "ime" : "Velimir Bata Zivojinovic"
+        },
+        {
+            "id":3,
+            "ime" : "Ljubisa Samardzic"
+        },
+        {
+            "id":4,
+            "ime" : "Milena Dravic"
+        },
+        {
+            "id":5,
+            "ime" : "Dragomir Bojanic Gidra"
+        }
+    ]
+}
