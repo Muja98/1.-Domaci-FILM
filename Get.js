@@ -1,5 +1,5 @@
-const URL_FILMA = "http://localhost:3000/film";
-const URL_GLUMCA = "http://localhost:3000/glumac";
+const URL_FILMA = "https://my-json-server.typicode.com/Muja98/1.-Domaci-FILM/film";
+const URL_GLUMCA = "https://my-json-server.typicode.com/Muja98/1.-Domaci-FILM//glumac";
 
 async function VratiNaslov2()
 {

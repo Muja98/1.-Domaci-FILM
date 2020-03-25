@@ -1,6 +1,8 @@
-// Import stylesheets
-import './style.css';
+import {VratiNaslov,VratiFilm,VratiGlumca} from './Get.js';
+import {CrtajSelect} from './Create.js'
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+
+VratiNaslov().then(film=>{
+    CrtajSelect(document.body,film);
+})
+
